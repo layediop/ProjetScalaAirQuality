@@ -1,3 +1,8 @@
+### Membre du groupe :
+
+-Abdoulaye DIOP
+-Moulaye Mohamed KOUTAM
+-Wacil BETTAHAR
 
 # Projet AirQualityFunctional
 
@@ -17,9 +22,6 @@ airqualityfunctional/
 ├── target/                 # Fichiers compilés Scala
 ├── requirements.txt        # Librairies Python nécessaires
 
-````
-
----
 
 ## Prérequis
 
@@ -67,13 +69,11 @@ Le script effectue :
 
 ---
 
-## Graphiques générés
+## Graphiques générés ( ça genere automatiquement les graphes)
 
 * Histogramme des valeurs CO\_GT
 * Scatter plot CO\_GT vs index
 * Boxplot de la distribution CO\_GT
-
----
 
 ## Structure du code Scala
 
