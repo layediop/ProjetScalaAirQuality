@@ -1,0 +1,9 @@
+target/
+*.class
+*.log
+*.jar
+.venv/
+venv/
+*.pyc
+__pycache__/
+co_gt_values.csv
