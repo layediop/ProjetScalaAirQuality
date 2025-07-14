@@ -15,3 +15,4 @@ echo "Exécution du script Python pour les graphiques..."
 python plot_histogram.py
 
 echo "Terminé."
+

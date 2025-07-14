@@ -18,7 +18,7 @@ object Visualization {
       histogram(bin) += 1
     }
 
-    // indices pour xData
+    //indices pour xData
     val xData: java.util.List[Integer] = (0 until bins).map(Int.box).toList.asJava
     val yData: java.util.List[java.lang.Double] = histogram.map(_.toDouble).map(Double.box).toList.asJava
 

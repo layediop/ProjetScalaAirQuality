@@ -17,7 +17,7 @@ plt.title("Histogramme de CO_GT")
 plt.xlabel("CO_GT")
 plt.ylabel("Fréquence")
 
-# 2) Boxplot
+#2) Boxplot
 plt.subplot(2, 2, 2)
 sns.boxplot(x=values, color='lightgreen')
 plt.title("Boxplot de CO_GT")

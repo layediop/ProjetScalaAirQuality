@@ -23,7 +23,7 @@ case class AirQualityRecord(
 
 object DataProcessing {
 
-  // On précise le séparateur ';' car c’est un CSV avec point-virgule
+  // On précise le séparateur ';' 
   implicit val decoder: HeaderDecoder[AirQualityRecord] = HeaderDecoder.decoder(
     "Date", "Time", "CO(GT)", "PT08.S1(CO)", "NMHC(GT)", "C6H6(GT)", "PT08.S2(NMHC)",
     "NOx(GT)", "PT08.S3(NOx)", "NO2(GT)", "PT08.S4(NO2)", "PT08.S5(O3)", "T", "RH", "AH"

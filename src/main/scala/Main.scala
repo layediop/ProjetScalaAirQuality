@@ -15,7 +15,7 @@ object Main extends App {
   val filtered = DataProcessing.filterAboveThreshold(records, 2.5)
   if (filtered.isEmpty) println("Pas de données CO_GT > 2.5.") else filtered.take(5).foreach(println)
 
-  // Extraire les valeurs CO_GT filtrées (non vides)
+  // Extraire les valeurs CO_GT filtrées 
   val coValues = records.flatMap(_.CO_GT).filter(_ >= 0)
 
   // Exporter dans un fichier CSV
