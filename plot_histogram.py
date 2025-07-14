@@ -6,7 +6,6 @@ import seaborn as sns
 filename = "co_gt_values.csv"
 data = pd.read_csv(filename)
 
-# Supposons que la colonne s'appelle "CO_GT"
 values = data["CO_GT"].dropna()
 
 plt.figure(figsize=(15, 10))
